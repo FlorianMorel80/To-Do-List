@@ -1,0 +1,64 @@
+    html,
+    body {
+        margin: 0px;
+        width: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    html {
+        background-color: rgb(95, 224, 145);
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+        text-decoration: 3px underline;
+    }
+    
+    .container {
+        margin-left: 40%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+    }
+    
+    img {
+        width: 8%;
+    }
+    
+    #inputTasks {
+        width: 300px;
+        height: 40px;
+        border: 1px solid black;
+        font-size: 20px;
+        vertical-align: middle;
+        text-align: center;
+    }
+    
+    #addTasks {
+        height: 43px;
+        width: 40px;
+        border: 1px solid black;
+        vertical-align: middle;
+        font-size: 30px;
+        margin-left: 4px;
+    }
+    
+    .to-do {
+        margin-top: 25px;
+    }
+    
+    .liste-styling {
+        cursor: pointer;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        margin-left: 10%;
+        text-transform: bold;
+    }
+    
+    #count {
+        font-size: 30px;
+        color: cornsilk;
+        margin-left: 8px;
+        margin-bottom: 10%;
+    }
